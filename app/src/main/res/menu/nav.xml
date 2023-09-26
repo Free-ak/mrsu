@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_home_24"
+        android:title="" />
+
+    <item
+        android:id="@+id/schedule"
+        android:title=""
+        android:icon="@drawable/baseline_calendar_today_24"/>
+
+    <item
+        android:id="@+id/mydisciplines"
+        android:title=""
+        android:icon="@drawable/academic_cap"/>
+
+    <item
+        android:id="@+id/table"
+        android:title=""
+        android:icon="@drawable/baseline_chat_24"/>
+
+    <item
+        android:id="@+id/padding"
+        android:title=""
+        android:icon="@drawable/baseline_pending_24"/>
+
+</menu>
