@@ -3,18 +3,19 @@
 
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/baseline_home_24"
-        android:title="" />
+        android:icon="@drawable/home_24"
+        android:title=""
+        />
+
+    <item
+    android:id="@+id/mydisciplines"
+    android:icon="@drawable/academic_cap"
+    android:title="" />
 
     <item
         android:id="@+id/schedule"
-        android:title=""
-        android:icon="@drawable/baseline_calendar_today_24"/>
-
-    <item
-        android:id="@+id/mydisciplines"
-        android:title=""
-        android:icon="@drawable/academic_cap"/>
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="" />
 
     <item
         android:id="@+id/table"
