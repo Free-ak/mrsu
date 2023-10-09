@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android1:paddingTop="8dp"
     android1:layout_marginHorizontal="8dp"
-    android1:background="white"
+    android1:background="@color/white"
     android1:foreground="?android:attr/selectableItemBackground">
 <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/title_image"
@@ -18,4 +19,17 @@
     app:layout_constraintTop_toTopOf="parent"
     android:src="@drawable/academic_cap"
     />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="No entries"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/title_image"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
