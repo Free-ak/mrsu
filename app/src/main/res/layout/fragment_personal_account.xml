@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    tools:context=".personal_account_fragment"
     >
     <RelativeLayout
         android:id="@+id/frame_layout"
@@ -52,12 +53,12 @@
             android:layout_below="@id/name"
             android:layout_centerHorizontal="true" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/middle_name"
-            tools:listitem="@layout/list_item" />
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/recycler_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@+id/middle_name"-->
+<!--            tools:listitem="@layout/list_item" />-->
     </RelativeLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

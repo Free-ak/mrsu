@@ -19,9 +19,9 @@
         android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="75dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="75dp" />
 
     <EditText
         android:id="@+id/loginEditText"

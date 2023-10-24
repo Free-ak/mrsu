@@ -34,7 +34,7 @@ class personal_account_fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_personal_account_fragment, container, false)
+        return inflater.inflate(R.layout.fragment_personal_account, container, false)
     }
 
     companion object {

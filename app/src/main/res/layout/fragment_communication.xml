@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yelow"
-    tools:context=".schedule_fragment">
+    tools:context=".communication_fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

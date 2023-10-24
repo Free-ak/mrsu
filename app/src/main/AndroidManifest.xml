@@ -12,15 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mrsu"
         tools:targetApi="31">
+
+        <activity
+            android:name="ButtonMenuActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name="communication_fragment"
+            android:exported="false"/>
+
+        <activity
+            android:name="my_disciplines_fragment"
+            android:exported="false"/>
+
+        <activity
+            android:name="other_fragment"
+            android:exported="false"/>
+
+        <activity
+            android:name="personal_account_fragment"
+            android:exported="false"/>
+
+        <activity
+            android:name="schedule_fragment"
+            android:exported="false"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    </application>
 </manifest>
