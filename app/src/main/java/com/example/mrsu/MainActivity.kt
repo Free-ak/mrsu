@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import ButtonMenuActivity
 import com.example.mrsu.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             if (login == "" || pass == "")
                 Toast.makeText(this, "Не все поля заполнены", Toast.LENGTH_LONG).show()
             else {
-                var intent =  Intent(applicationContext, ButtonMenuActivity::class.java)
+                var intent =  Intent(applicationContext,ButtonMenu::class.java)
                 startActivity(intent)
             }
         }
