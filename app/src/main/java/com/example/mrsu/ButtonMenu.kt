@@ -20,13 +20,12 @@ import com.example.mrsu.databinding.ActivityButtonMenu2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityButtonMenu2Binding.inflate(layoutInflater)
-        replaceFragment(personal_account_fragment())
+
         setContentView(binding.root)
-//        val navController = findNavController(R.id.nav_host_fragment_content_button_menu)
-//        appBarConfiguration = AppBarConfiguration(navController.graph)
-//        setupActionBarWithNavController(navController, appBarConfiguration)
-        binding.bottomNavigationView.setOnClickListener(){
-            when(it.id){
+        replaceFragment(personal_account_fragment())
+        binding.bottomNavigationView.setOnItemSelectedListener{
+            when(it.itemId)
+            {
                 R.id.profile-> replaceFragment(personal_account_fragment())
                 R.id.mydisciplines -> replaceFragment(my_disciplines_fragment())
                 R.id.schedule -> replaceFragment(schedule_fragment())
@@ -35,6 +34,7 @@ import com.example.mrsu.databinding.ActivityButtonMenu2Binding
                 else ->{
                 }
             }
+            true
          }
         }
 //        override fun onSupportNavigateUp(): Boolean
